@@ -1,4 +1,4 @@
-;;; lsp-installer.el --- Language server installer for Emacs -*- lexical-binding: t; -*-
+;;; test-repo.el --- Language server installer for Emacs -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025
 
@@ -6,7 +6,7 @@
 ;; Version: 0.3.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: languages, lsp
-;; URL: https://github.com/kn66/lsp-installer
+;; URL: https://github.com/kn66/test-repo
 
 ;;; Commentary:
 
@@ -24,15 +24,15 @@
 ;; - Automatic path management
 ;;
 ;; Usage:
-;; (require 'lsp-installer)
-;; (lsp-installer-setup)  ; Add installed servers to exec-path
+;; (require 'test-repo)
+;; (test-repo-setup)  ; Add installed servers to exec-path
 ;;
 ;; Interactive commands:
-;; - `lsp-installer-install-server'   - Install a server
-;; - `lsp-installer-uninstall-server' - Remove a server
-;; - `lsp-installer-update-server'    - Update a server
-;; - `lsp-installer-update-all-servers' - Update all installed servers
-;; - `lsp-installer-list-servers'     - Show available/installed servers
+;; - `test-repo-install-server'   - Install a server
+;; - `test-repo-uninstall-server' - Remove a server
+;; - `test-repo-update-server'    - Update a server
+;; - `test-repo-update-all-servers' - Update all installed servers
+;; - `test-repo-list-servers'     - Show available/installed servers
 
 ;;; Code:
 
@@ -41,6 +41,6 @@
 (message "hello")
 (message "hello2")
 
-(provide 'lsp-installer)
+(provide 'test-repo)
 
-;;; lsp-installer.el ends here
+;;; test-repo.el ends here
