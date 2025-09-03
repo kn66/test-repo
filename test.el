@@ -39,6 +39,7 @@
 ;;; Configuration
 
 (message "hello")
+(message "hello2")
 
 (provide 'lsp-installer)
 
