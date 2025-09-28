@@ -42,6 +42,7 @@
 (message "hello2")
 (message "hello3")
 (message "hello4")
+(message "hello5")
 
 (provide 'test-repo)
 
